@@ -1,33 +1,21 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <div className="announcement">
+        <h1>🌟 Something Exciting is Coming! 🌟</h1>
+        <p>Hey there, health explorers! 🚀</p>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          We’re thrilled to announce that something special is brewing just for you. Imagine a companion that understands your journey, offering insights, support, and a sprinkle of magic to help you navigate the world of food sensitivities and well-being.
         </p>
+        <h2>✨ Get ready for Gut Warden! ✨</h2>
+        <p>
+          Your path to better health is about to become a little clearer, a lot more fun, and intriguingly rewarding. Stay tuned as we prepare to unveil a world where your wellness meets wisdom, creativity, and community.
+        </p>
+        <p>The countdown has begun! ⏳</p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
